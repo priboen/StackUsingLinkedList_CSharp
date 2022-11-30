@@ -16,6 +16,10 @@ namespace StackUsingLinkedList_CSharp
             next = n;
         }
     }
+    class Stack
+    {
+
+    }
     internal class Program
     {
         static void Main(string[] args)
