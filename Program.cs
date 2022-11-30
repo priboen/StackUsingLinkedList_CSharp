@@ -74,6 +74,10 @@ namespace StackUsingLinkedList_CSharp
                 Console.WriteLine("\n Enter your choice : ");
                 string input = Console.ReadLine();
                 char ch = Convert.ToChar(input == "" ? "0" : input);
+                switch (ch)
+                {
+
+                }
             }
         } 
     }
