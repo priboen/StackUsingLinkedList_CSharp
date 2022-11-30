@@ -47,7 +47,7 @@ namespace StackUsingLinkedList_CSharp
         }
         public void display()
         {
-
+            Node tmp;
         }
     }
     internal class Program
