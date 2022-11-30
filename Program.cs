@@ -48,6 +48,14 @@ namespace StackUsingLinkedList_CSharp
         public void display()
         {
             Node tmp;
+            if ()
+            {
+
+            }
+            else
+            {
+
+            }
         }
     }
     internal class Program
