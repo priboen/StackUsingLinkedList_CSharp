@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace StackUsingLinkedList_CSharp
 {
@@ -29,6 +30,15 @@ namespace StackUsingLinkedList_CSharp
                 return (true);
             else
                 return (false);
+        }
+        public void push(int element)
+        {
+            Node fresh;
+            fresh = new Node(element, null);
+
+            fresh.next = top;
+            top = fresh;
+            Console.WriteLine("\n" + element + "pushed");
         }
     }
     internal class Program
