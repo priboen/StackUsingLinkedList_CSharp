@@ -19,6 +19,10 @@ namespace StackUsingLinkedList_CSharp
     class Stack
     {
         Node top;
+        public Stack()
+        {
+            top = null;
+        }
     }
     internal class Program
     {
