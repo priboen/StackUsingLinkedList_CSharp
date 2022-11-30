@@ -39,11 +39,15 @@ namespace StackUsingLinkedList_CSharp
             fresh.next = top;
             top = fresh;
             Console.WriteLine("\n" + element + "pushed");
+            Console.WriteLine("\nPress Enter to Continue.");
+            Console.ReadKey();
         }
         public void pop()
         {
             Console.WriteLine("\n The poped elements is : " + top.info);
             top = top.next;
+            Console.WriteLine("\nPress Enter to Continue.");
+            Console.ReadKey();
         }
         public void display()
         {
@@ -51,6 +55,8 @@ namespace StackUsingLinkedList_CSharp
             if (empty())
             {
                 Console.WriteLine("\nStack Empty");
+                Console.WriteLine("\nPress Enter to Continue.");
+                Console.ReadKey();
             }
             else
             {
@@ -58,6 +64,8 @@ namespace StackUsingLinkedList_CSharp
                 {
                     Console.WriteLine(tmp.info);
                 }
+                Console.WriteLine("\nPress Enter to Continue.");
+                Console.ReadKey();
             }
         }
         static void Main(string[] args)
